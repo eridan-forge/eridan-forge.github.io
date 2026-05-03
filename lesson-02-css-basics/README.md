@@ -24,4 +24,4 @@ HTML — это скелет, CSS — это одежда сайта.
 Ссылка в [homework.md](homework.md)
 
 ## 🔗 Живой пример результата
-👉 [Посмотреть, как должно получиться](https://eridan-forge.github.io/lesson-02/final/)
+👉 [Посмотреть, как должно получиться](https://eridan-forge.github.io/lesson-02-css-basics/final/)
