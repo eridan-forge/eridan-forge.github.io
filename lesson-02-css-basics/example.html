@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Урок 2: Мой стильный робот</title>
+    <style>
+        body {
+            background: #0F120F;
+            font-family: system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: #1A1C1A;
+            padding: 40px;
+            border-radius: 32px;
+            max-width: 500px;
+            text-align: center;
+            border-left: 6px solid #6B4226;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.5);
+            color: white;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+        }
+        .accent {
+            color: #4477AA;
+        }
+        button {
+            background: #4477AA;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 40px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #335588;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🤖 Мой <span class="accent">робот</span></h1>
+        <p>Эта страница теперь выглядит стильно.</p>
+        <p>CSS добавляет цвета, отступы, скругления и тени.</p>
+        <button onclick="alert('Управление роботом скоро 🚀')">Управлять</button>
+    </div>
+</body>
+</html>
