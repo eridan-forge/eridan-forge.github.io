@@ -14,4 +14,4 @@
 
 ## 🎯 Живой пример того, что должно получиться
 
-👉 [Посмотреть результат](https://eridan-forge.github.io/lesson-01/final/)
+👉 [Посмотреть результат](https://eridan-forge.github.io/lesson-01-html-basics/final/)
