@@ -1,1 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background: #0A0F0A;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #E8EDE8;
+    padding: 2rem;
+}
+
+.dashboard {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #111611;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px #4477AA33;
+    border: 1px solid #4477AA;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #4477AA;
+}
+
+.servos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.servo-card {
+    background: #1A1C1A;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.servo-card:hover {
+    transform: scale(1.01);
+    background: #222522;
+}
+
+input {
+    width: 60%;
+    accent-color: #4477AA;
+}
+
+button {
+    background: #4477AA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0 0.5rem;
+}
+
+button:hover {
+    background: #2F5A88;
+    transform: scale(1.02);
+}
+
+.log {
+    background: #030503;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    font-family: monospace;
+    font-size: 0.8rem;
+}
+
+#logList div {
+    padding: 0.3rem 0;
+    border-bottom: 1px solid #2A3A2A;
+}
+
+@media (max-width: 600px) {
+    .servo-card {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    input {
+        width: 100%;
+    }
+}
