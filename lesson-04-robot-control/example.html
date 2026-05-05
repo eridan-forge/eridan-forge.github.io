@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Урок 3: Управление роботом</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Управление роботом</h1>
+        <p>Двигай ползунки — робот меняет положение</p>
 
+        <div class="servos">
+            <div class="servo-card">
+                <h3>Рука 1</h3>
+                <input type="range" id="servo1" min="0" max="180" value="90">
+                <span id="angle1">90</span>°
+            </div>
+            <div class="servo-card">
+                <h3>Рука 2</h3>
+                <input type="range" id="servo2" min="0" max="180" value="90">
+                <span id="angle2">90</span>°
+            </div>
+            <div class="servo-card">
+                <h3>Рука 3</h3>
+                <input type="range" id="servo3" min="0" max="180" value="90">
+                <span id="angle3">90</span>°
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="waveBtn">Помахать</button>
+            <button id="resetBtn">Сбросить</button>
+        </div>
+
+        <div class="log">
+            <h3>Лог действий</h3>
+            <div id="logList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
