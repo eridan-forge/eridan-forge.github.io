@@ -26,7 +26,7 @@ function setServo(index, newAngle) {
 }
 
 function waveHand() {
-    addLog(`🚀 МАХ РУКОЙ!`);
+    addLog(`МАХ РУКОЙ!`);
     setServo(0, 30);
     setServo(1, 30);
     setServo(2, 30);
@@ -40,7 +40,7 @@ function waveHand() {
 
 function resetArm() {
     for (let i = 0; i < angles.length; i++) setServo(i, 90);
-    addLog(`🔄 Сброс до 90°`);
+    addLog(`Сброс до 90°`);
 }
 
 // ===== НАСТРОЙКА КНОПОК И СЛАЙДЕРОВ =====
