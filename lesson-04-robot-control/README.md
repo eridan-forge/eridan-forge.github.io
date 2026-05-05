@@ -3,7 +3,7 @@
 ## 📖 [Теория](theory.md)
 ## 💻 [Пример кода](example.html)
 ## 🏠 [Домашнее задание](homework.md)
-## 🎯 [Финальный результат](final/index.html)
+## 🎯 [Финальный результат](https://eridan-forge.github.io/robot-web-course/lesson-04-robot-control/final/)
 
 ## 🎯 Что узнали
 - События и обработчики
