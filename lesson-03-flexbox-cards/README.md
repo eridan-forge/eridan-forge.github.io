@@ -3,7 +3,7 @@
 ## 📖 [Теория](theory.md)
 ## 💻 [Пример кода](example.html)
 ## 🏠 [Домашнее задание](homework.md)
-## 🎯 [Финальный результат](https://eridan-forge.github.io/robot-web-course/lesson-03-flexbox-cards/final/)
+## 🎯 [Финальный результат](https://eridan-forge.github.io/lesson-03-flexbox-cards/final/index.html)
 
 ---
 
