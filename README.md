@@ -13,8 +13,8 @@
 
 ## Уроки
 - [Урок 1: Моя первая страница](lesson-01-html-basics/)
-- [Урок 2: CSS — делаем красиво](lesson-02-css-basics)
-- [Урок 3: Карточки и Flexbox](lesson-03-flexbox-grid/)
+- [Урок 2: CSS — делаем красиво](lesson-02-css-basics/)
+- [Урок 3: Карточки и Flexbox](lesson-03-flexbox-cards/)
 - [Урок 4: Управление сервами на сайте](lesson-04-robot-control/)
 - (остальные появятся по мере проведения)
 
