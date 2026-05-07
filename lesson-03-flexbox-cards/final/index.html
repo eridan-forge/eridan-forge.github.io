@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 3: Карточки проектов | Кружок робототехники</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #E8E2D9;
+            background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
+            background-size: 20px 20px;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            padding: 3rem 1.5rem;
+            color: #2C2824;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #3D2B1F;
+            border-left: 4px solid #C45C3A;
+            padding-left: 1rem;
+        }
+
+        .subtitle {
+            color: #6B5B4F;
+            margin-top: 0.5rem;
+            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+        }
+
+        .cards-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #F5F2EF;
+            flex: 1 1 220px;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #D6CEC4;
+            transition: all 0.25s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            background: #FFFFFF;
+            border-color: #C45C3A;
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #3D2B1F;
+        }
+
+        .card p {
+            font-size: 0.85rem;
+            color: #6B5B4F;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .card-tag {
+            display: inline-block;
+            background: #E8E1D8;
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: #C45C3A;
+            letter-spacing: 0.3px;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .cards-grid {
+                flex-direction: column;
+            }
+            .card {
+                flex: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Наши проекты</h1>
+        <p class="subtitle">То, что мы сделали в кружке</p>
+
+        <div class="cards-grid">
+            <div class="card" onclick="alert('Механическая рука — 5 сервоприводов')">
+                <div class="card-icon">🤖</div>
+                <h3>Механическая рука</h3>
+                <p>5 сервоприводов, управление с телефона</p>
+                <div class="card-tag">Arduino</div>
+            </div>
+            <div class="card" onclick="alert('Панель управления — веб-интерфейс для робота')">
+                <div class="card-icon">🦾</div>
+                <h3>Панель управления</h3>
+                <p>Веб-интерфейс для робота</p>
+                <div class="card-tag">HTML/CSS/JS</div>
+            </div>
+            <div class="card" onclick="alert('Робот-машина — управление по Bluetooth')">
+                <div class="card-icon">🚗</div>
+                <h3>Робот-машина</h3>
+                <p>Управление по Bluetooth</p>
+                <div class="card-tag">C++</div>
+            </div>
+            <div class="card" onclick="alert('Джойстик для робота — геймпад в браузере')">
+                <div class="card-icon">🎮</div>
+                <h3>Джойстик для робота</h3>
+                <p>Управление с геймпада</p>
+                <div class="card-tag">JS + Gamepad API</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
